@@ -13,6 +13,7 @@ export type SwitchChangeEventHandler = (checked: boolean, event: MouseEvent) => 
 export type SwitchClickEventHandler = SwitchChangeEventHandler;
 
 export interface SwitchProps {
+  id?: string | undefined;
   prefixCls?: string;
   size?: SwitchSize;
   className?: string;
